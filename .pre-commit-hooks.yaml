@@ -1,23 +1,23 @@
 - id: black
   name: Black Formatter
   entry: black
-  language: python
+  language: system
   types: [python]
 
 - id: isort
   name: Import Sorter
   entry: isort
-  language: python
+  language: system
   types: [python]
 
 - id: flake8
   name: Flake8 Linter
   entry: flake8
-  language: python
+  language: system
   types: [python]
 
 - id: mypy
   name: Mypy Type Checker
   entry: mypy
-  language: python
+  language: system
   types: [python]
